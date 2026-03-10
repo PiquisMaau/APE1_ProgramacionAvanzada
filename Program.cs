@@ -14,27 +14,29 @@ namespace EjercicioDeber_1
         {
             //Dado un rango inicial y un rango final, calcule la sumatoria de todos los números primos
             //que terminen en 7.De ser el caso incluye el número 7.
+            Console.WriteLine("----- Sumatoria de números primos terminados en 7 -----");
+            Console.Write("Ingresa un valor Inicial: ");
             string rangoInicial = Console.ReadLine();
+            Console.Write("Ingresa un valor Final: ");
             string rangoFinal = Console.ReadLine();
-            int sumatoria = 0;
-            VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) != 0 ? sumatoria += VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) : 0;
+            // VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) != 0 ? sumatoria += VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) : 0;
+            
+            Console.WriteLine(VerificarSiEsPrimoSiete(rangoInicial, rangoFinal));
 
 
 
-    
         }
 
         private static int VerificarSiEsPrimoSiete(string rangoInicial, string rangoFinal)
         {
-
+            int sumatoria = 0;
             for (int i = int.Parse(rangoInicial); i <= int.Parse(rangoFinal); i++) {
-                if (Esprimo(i))
+                if (Esprimo(i) && i.ToString().EndsWith("7"))
                 {
-                    i.ToString().EndsWith("7");
-                    return i;
+                     sumatoria += i;
                 }
             }
-            return 0;
+            return sumatoria;
 
         }
 

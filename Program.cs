@@ -16,24 +16,26 @@ namespace EjercicioDeber_1
             //que terminen en 7.De ser el caso incluye el número 7.
             string rangoInicial = Console.ReadLine();
             string rangoFinal = Console.ReadLine();
-            VerificarSiEsPrimo();
+            int sumatoria = 0;
+            VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) != 0 ? sumatoria += VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) : 0;
+
+
+
+    
         }
 
-        private static Boolean VerificarSiEsPrimo(string rangoInicial, string rangoFinal)
+        private static int VerificarSiEsPrimoSiete(string rangoInicial, string rangoFinal)
         {
-            
 
-            for (int i = int.Parse(rangoInicial); i <= int.Parse(rangoFinal); i++)
-            {
-
-                i = i <= 1 ? false :
-                     i == 2 ? true :
-                     i % 2 == 0 ? false :
-                i % 1 == 0 ? true : return false;
-               
-
-
+            for (int i = int.Parse(rangoInicial); i <= int.Parse(rangoFinal); i++) {
+                if (Esprimo(i))
+                {
+                    i.ToString().EndsWith("7");
+                    return i;
                 }
+            }
+            return 0;
+
         }
 
         private static Boolean Esprimo(int numero)

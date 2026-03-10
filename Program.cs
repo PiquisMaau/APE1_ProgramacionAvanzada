@@ -19,12 +19,14 @@ namespace EjercicioDeber_1
             string rangoInicial = Console.ReadLine();
             Console.Write("Ingresa un valor Final: ");
             string rangoFinal = Console.ReadLine();
-            // VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) != 0 ? sumatoria += VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) : 0;
-            
+            // Operadores condicionales no funcionan con metodos -> VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) != 0 ? sumatoria += VerificarSiEsPrimoSiete(rangoInicial, rangoFinal) : 0;
+            //Éste condicional solo va a validar el primer digito, no funcionaría -> if (!(char.IsDigit(char.Parse(rangoInicial)) && char.IsDigit(char.Parse(rangoFinal))))
+            if (!rangoInicial.All(char.IsDigit) || !rangoFinal.All(char.IsDigit)) 
+            { 
+                Console.WriteLine("Ingrese solo números.");
+                return; 
+            }
             Console.WriteLine(VerificarSiEsPrimoSiete(rangoInicial, rangoFinal));
-
-
-
         }
 
         private static int VerificarSiEsPrimoSiete(string rangoInicial, string rangoFinal)

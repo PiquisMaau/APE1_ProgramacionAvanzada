@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioDeber_2
 {
-    internal class Program
+    internal class Program : Curso
     {
         static void Main(string[] args)
         {
@@ -21,27 +21,24 @@ namespace EjercicioDeber_2
             //   • Indicar cuántos estudiantes aprobaron y cuántos reprobaron.
             //   • Crear una clase llamada Curso que contenga métodos para realizar los cálculos.
 
-            Console.WriteLine( "----------- Gestion de NOTAS --------------");
+            Console.WriteLine("----------- Gestion de NOTAS --------------");
             double[] notas = new double[10];
             for (int i = 0; i < 10; i++)
             {
                 do
                 {
                     Console.Write($"Ingresa la nota {i + 1} entre 0 y 10: ");
-                    string notaIngresada = Console.ReadLine();
-                    if (!notaIngresada.All(char.IsDigit))
-                    {
-                        Console.WriteLine("!!! Ingresa solo valores numéricos !!!");
-                    }
+                    notas[i] = double.Parse(Console.ReadLine());
+
                     if (!(notas[i] >= 0) || !(notas[i] <= 10))
                     {
                         Console.WriteLine("Nota no valida");
                     }
-                    
+
 
                 } while (!(notas[i] >= 0) || !(notas[i] <= 10))
 
-                    
+
                 ;
             }
 
@@ -54,5 +51,9 @@ namespace EjercicioDeber_2
             }
             Console.WriteLine();
         }
+
+
+
+       
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioDeber_2
 {
-     class Curso
+    class Curso
     {
 
         public double CalcularPrimedioGeneral(double[] notas)
@@ -31,30 +31,42 @@ namespace EjercicioDeber_2
             return notaBaja;
         }
 
-        public double[] EstudiantesAprobadosReprobado(double[] notas)
+        public double[] EstudiantesAprobados(double[] notas)
         {
             List<double> estudiantesAprobados = new List<double>();
-            for (int i = 0; i < notas.Length; i++) {
+            for (int i = 0; i < notas.Length; i++)
+            {
                 if (notas[i] >= 6.99 && notas[i] <= 10)
                 {
-                    estudiantesAprobados[i] = notas [i];
+                    estudiantesAprobados.Add(notas[i]);
                 }
             }
             return estudiantesAprobados.ToArray();
         }
-        public string EstudiantesReprobados(double[] notas)
+        public double[] EstudiantesReprobados(double[] notas)
         {
-            List<double> estdudiantesReprobados = new List<double> ();
+            List<double> estdudiantesReprobados = new List<double>();
             for (int i = 0; i < notas.Length; i++)
             {
                 if (notas[i] >= 0 && notas[i] <= 6.99)
                 {
-                    estdudiantesReprobados = notas [i];
+                    estdudiantesReprobados.Add(notas[i]);
                 }
             }
             return estdudiantesReprobados.ToArray();
 
         }
-    }
 
+        public static void ImprimirListados(double[] notas)
+        {
+            Console.WriteLine("Imprimiendo notas");
+            int CONTADOR = 0;
+            foreach (var nota in notas)
+            {
+                CONTADOR++;
+                Console.WriteLine($"{CONTADOR}. {nota}");
+            }
+        }
+
+    }
 }

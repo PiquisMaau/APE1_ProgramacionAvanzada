@@ -50,10 +50,21 @@ namespace EjercicioDeber_2
                 numerodeNota++;
             }
             Console.WriteLine();
+            Curso curso1 = new Curso();
+            Console.WriteLine("El promedion general del curso es: "+curso1.CalcularPrimedioGeneral(notas));
+            Console.WriteLine("La nota más alta del curso es: "+ curso1.DevolverNotaAlta(notas));
+            Console.WriteLine("La nota más baja del curso es: " + curso1.DevolverNotaBaja(notas));
+            Console.WriteLine("Los estudiantes aprobados son: "+ curso1.EstudiantesAprobados(notas).Length);
+            ImprimirListados(curso1.EstudiantesAprobados(notas));
+            Console.WriteLine("Los estudiantes reprobados son: " + curso1.EstudiantesReprobados(notas).Length);
+            ImprimirListados(curso1.EstudiantesReprobados(notas));
+            
         }
 
 
 
-       
+
+
+
     }
 }

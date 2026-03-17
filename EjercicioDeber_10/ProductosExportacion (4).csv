@@ -1,0 +1,201 @@
+id,mes,año,pais,tipoProducto,pesoToneladas,montoMillonesDolares
+1,Junio,2025,Estados Unidos,café,179,1058.5041
+2,Agosto,2025,Honduras,frutas,98,2619.8117
+3,Septiembre,2023,Brasil,café,119,4787.884
+4,Octubre,2024,Guatemala,café,1,3719.4502
+5,Abril,2023,Colombia,café,200,2502.0689
+6,Junio,2025,Guatemala,cacao,80,2508.7031
+7,Abril,2024,Costa Rica,banano,1,731.3719
+8,Junio,2024,Honduras,banano,19,3792.5159
+9,Agosto,2025,Honduras,cosméticos,200,274.5928
+10,Noviembre,2024,Colombia,café,153,4496.105
+11,Marzo,2023,Argentina,banano,164,2185.837
+12,Julio,2025,Colombia,textiles,143,3606.6825
+13,Octubre,2025,Argentina,pesca,58,139.5178
+14,Abril,2024,Guatemala,café,90,1630.4884
+15,Junio,2023,Honduras,cosméticos,98,3122.2531
+16,Septiembre,2024,Honduras,café,113,4620.7294
+17,Septiembre,2023,Estados Unidos,frutas,106,2448.0321
+18,Julio,2024,Argentina,café,113,3484.9507
+19,Septiembre,2025,Argentina,textiles,159,2080.5591
+20,Septiembre,2024,Estados Unidos,cacao,109,4338.358
+21,Junio,2024,Estados Unidos,textiles,87,4216.1389
+22,Septiembre,2024,Estados Unidos,cosméticos,114,2169.6314
+23,Enero,2024,Costa Rica,pesca,142,4600.3855
+24,Mayo,2025,Argentina,cacao,107,445.6956
+25,Julio,2023,Estados Unidos,café,41,2803.9027
+26,Febrero,2023,Colombia,pesca,118,4819.0743
+27,Abril,2024,México,cacao,87,93.6901
+28,Mayo,2024,Brasil,cacao,190,2877.9464
+29,Abril,2025,Brasil,cosméticos,29,3056.395
+30,Abril,2023,Argentina,banano,109,715.942
+31,Enero,2024,Colombia,textiles,124,1859.5865
+32,Junio,2023,Argentina,cacao,180,3938.2813
+33,Enero,2024,Argentina,cacao,159,2143.5932
+34,Octubre,2024,Estados Unidos,frutas,193,1520.5525
+35,Septiembre,2024,Colombia,pesca,185,3322.8644
+36,Febrero,2025,Canadá,cosméticos,140,4326.2889
+37,Agosto,2025,Guatemala,banano,105,876.6091
+38,Marzo,2023,Guatemala,frutas,24,1285.9257
+39,Enero,2025,Costa Rica,café,83,1466.0629
+40,Julio,2023,México,pesca,199,1315.2372
+41,Agosto,2025,México,textiles,142,684.139
+42,Julio,2025,Colombia,pesca,22,286.5192
+43,Junio,2024,Costa Rica,pesca,6,2391.7198
+44,Marzo,2024,Brasil,cosméticos,131,415.5873
+45,Octubre,2025,Argentina,cosméticos,37,741.4929
+46,Enero,2024,Argentina,banano,18,2918.2436
+47,Febrero,2024,Argentina,pesca,192,3589.8749
+48,Julio,2024,Brasil,frutas,91,2314.8668
+49,Enero,2024,Honduras,flores,179,1594.8127
+50,Enero,2024,Guatemala,pesca,34,3493.9442
+51,Abril,2024,Colombia,flores,11,2302.9079
+52,Julio,2025,Colombia,banano,127,4033.2129
+53,Mayo,2023,Argentina,flores,120,3565.4544
+54,Noviembre,2023,Honduras,banano,161,3241.0281
+55,Agosto,2023,Honduras,cacao,72,694.21
+56,Marzo,2023,Colombia,flores,185,2293.2141
+57,Enero,2024,Guatemala,pesca,155,3106.5846
+58,Mayo,2023,Honduras,cacao,111,3330.7861
+59,Febrero,2024,Guatemala,café,162,4018.2791
+60,Noviembre,2024,Costa Rica,cacao,50,706.1361
+61,Junio,2024,Guatemala,cacao,180,3184.6644
+62,Noviembre,2023,Honduras,banano,134,2743.3461
+63,Abril,2025,Colombia,textiles,150,2914.3473
+64,Marzo,2025,Guatemala,frutas,97,2104.4271
+65,Diciembre,2024,Argentina,pesca,144,2624.7212
+66,Julio,2024,Honduras,pesca,24,629.4912
+67,Noviembre,2024,Brasil,textiles,3,2974.3955
+68,Agosto,2024,Guatemala,banano,169,65.8738
+69,Septiembre,2023,Argentina,frutas,155,1299.6756
+70,Octubre,2025,Honduras,flores,85,2465.7357
+71,Marzo,2023,Guatemala,cosméticos,187,1693.5175
+72,Agosto,2024,Brasil,cosméticos,153,618.8603
+73,Enero,2025,Colombia,cosméticos,81,4553.3124
+74,Octubre,2025,Guatemala,banano,86,1365.8394
+75,Julio,2023,Costa Rica,cacao,40,3527.3643
+76,Junio,2025,Canadá,banano,60,1326.4637
+77,Agosto,2024,Honduras,cosméticos,21,4153.9994
+78,Abril,2024,Estados Unidos,banano,25,2724.7141
+79,Junio,2024,Argentina,textiles,114,1330.3664
+80,Mayo,2023,Honduras,cacao,61,388.2611
+81,Agosto,2025,Canadá,frutas,164,173.5896
+82,Junio,2023,Brasil,cacao,67,3948.546
+83,Noviembre,2025,Honduras,textiles,167,4447.9644
+84,Febrero,2024,México,pesca,4,3522.2054
+85,Junio,2024,Argentina,flores,163,4523.2441
+86,Enero,2025,Estados Unidos,cacao,112,633.4675
+87,Agosto,2023,Costa Rica,café,30,3182.6438
+88,Octubre,2025,Guatemala,flores,66,1284.4861
+89,Noviembre,2023,México,flores,44,1933.6715
+90,Octubre,2024,Estados Unidos,cacao,176,2726.1931
+91,Marzo,2025,Brasil,banano,22,18.8331
+92,Junio,2025,Brasil,frutas,143,408.4534
+93,Junio,2025,Guatemala,banano,69,793.7631
+94,Noviembre,2024,Costa Rica,banano,38,4619.3357
+95,Julio,2024,Guatemala,cosméticos,156,153.2228
+96,Enero,2023,México,textiles,116,3710.6455
+97,Octubre,2025,Colombia,banano,175,4474.9913
+98,Febrero,2025,Honduras,cosméticos,29,3346.2798
+99,Diciembre,2024,Guatemala,textiles,153,2115.0799
+100,Abril,2024,Argentina,café,130,1552.7855
+101,Diciembre,2025,Canadá,banano,129,450.2674
+102,Febrero,2023,México,flores,47,4066.0127
+103,Mayo,2025,Costa Rica,cosméticos,103,1271.3594
+104,Septiembre,2025,Guatemala,cacao,9,646.9695
+105,Mayo,2024,Guatemala,café,185,3445.9853
+106,Marzo,2025,Estados Unidos,flores,157,4896.6678
+107,Marzo,2023,Brasil,frutas,50,2902.7996
+108,Junio,2023,Estados Unidos,pesca,150,2068.347
+109,Junio,2025,Estados Unidos,pesca,26,696.9628
+110,Marzo,2025,Guatemala,frutas,54,3614.628
+111,Junio,2025,México,pesca,126,3532.2345
+112,Enero,2025,Guatemala,cosméticos,112,4127.1737
+113,Marzo,2023,Honduras,café,161,3981.5885
+114,Junio,2024,Brasil,flores,13,3178.2912
+115,Abril,2025,Colombia,flores,33,3578.5582
+116,Septiembre,2025,Colombia,banano,89,4086.2178
+117,Octubre,2024,Brasil,pesca,114,4088.9031
+118,Octubre,2024,Canadá,cacao,36,2989.0044
+119,Octubre,2024,México,cosméticos,188,4858.833
+120,Mayo,2023,Estados Unidos,banano,91,1898.2465
+121,Febrero,2023,Canadá,cacao,87,2202.0171
+122,Octubre,2024,Colombia,banano,85,4187.6086
+123,Julio,2023,Honduras,pesca,100,4466.878
+124,Septiembre,2023,Costa Rica,flores,18,2139.3494
+125,Mayo,2023,Costa Rica,banano,99,4631.0453
+126,Mayo,2023,Estados Unidos,flores,79,4666.0016
+127,Diciembre,2023,Canadá,cacao,69,527.043
+128,Septiembre,2025,Canadá,cosméticos,106,3121.2071
+129,Mayo,2023,Estados Unidos,cosméticos,133,529.7029
+130,Agosto,2024,Colombia,cacao,99,3095.5534
+131,Septiembre,2025,México,cacao,38,4964.839
+132,Agosto,2023,Argentina,cacao,108,2415.9262
+133,Septiembre,2024,Brasil,flores,69,4674.3111
+134,Julio,2025,México,banano,43,2874.657
+135,Junio,2024,Costa Rica,cosméticos,85,1329.2657
+136,Enero,2024,Honduras,cosméticos,51,3942.5986
+137,Febrero,2025,Costa Rica,café,68,4071.4383
+138,Noviembre,2023,Argentina,textiles,194,4494.998
+139,Julio,2023,Honduras,flores,123,2458.6637
+140,Diciembre,2023,Colombia,café,196,1967.3331
+141,Septiembre,2023,Canadá,frutas,150,3479.9225
+142,Abril,2024,Argentina,pesca,177,3343.9257
+143,Julio,2024,Honduras,textiles,138,4342.7219
+144,Noviembre,2023,Estados Unidos,cosméticos,60,650.5401
+145,Octubre,2025,México,cosméticos,199,1753.0704
+146,Diciembre,2023,Guatemala,cacao,56,3505.5003
+147,Marzo,2024,Honduras,café,185,956.5306
+148,Octubre,2024,Brasil,cacao,127,1075.6937
+149,Junio,2024,Canadá,banano,129,3143.4397
+150,Marzo,2023,Costa Rica,cosméticos,32,2522.4895
+151,Junio,2025,Estados Unidos,textiles,161,3233.926
+152,Septiembre,2023,Brasil,café,29,1109.1466
+153,Febrero,2023,Argentina,pesca,152,896.5651
+154,Junio,2024,Colombia,cacao,145,3185.695
+155,Mayo,2024,Costa Rica,flores,3,3417.3176
+156,Febrero,2023,Brasil,flores,96,3375.9795
+157,Junio,2025,Costa Rica,pesca,175,1121.8193
+158,Junio,2025,Honduras,café,110,1105.7435
+159,Marzo,2023,México,flores,117,2292.4688
+160,Enero,2024,Guatemala,cacao,73,1376.3064
+161,Octubre,2023,México,café,176,2234.9282
+162,Octubre,2024,Brasil,cacao,96,4497.7061
+163,Mayo,2024,Canadá,café,3,2570.4946
+164,Mayo,2025,Guatemala,textiles,97,1882.8049
+165,Abril,2025,Honduras,frutas,138,2045.1121
+166,Junio,2023,Canadá,textiles,6,2391.605
+167,Abril,2025,Brasil,frutas,74,2867.3252
+168,Junio,2025,Honduras,frutas,46,1136.0186
+169,Octubre,2024,Colombia,banano,145,2031.5393
+170,Mayo,2025,Argentina,textiles,179,3440.0644
+171,Diciembre,2025,Honduras,flores,140,4344.1304
+172,Mayo,2023,Honduras,flores,47,2822.2631
+173,Julio,2024,Guatemala,pesca,127,2475.7124
+174,Noviembre,2025,Costa Rica,flores,3,3161.5061
+175,Agosto,2023,Brasil,pesca,128,41.9802
+176,Julio,2025,Honduras,café,115,2460.0966
+177,Diciembre,2025,Honduras,cacao,33,2960.0736
+178,Enero,2023,Canadá,cosméticos,189,2423.8284
+179,Septiembre,2025,Brasil,pesca,167,4688.1523
+180,Junio,2025,Guatemala,pesca,116,136.4841
+181,Enero,2023,Colombia,textiles,197,1698.4178
+182,Junio,2023,Brasil,banano,67,1205.9854
+183,Septiembre,2023,México,frutas,63,3703.0903
+184,Diciembre,2023,México,frutas,139,1889.9952
+185,Noviembre,2023,Argentina,banano,82,4403.8141
+186,Agosto,2024,Estados Unidos,flores,128,1983.3724
+187,Junio,2025,México,cacao,167,2164.7347
+188,Septiembre,2023,Argentina,banano,4,1551.0353
+189,Febrero,2025,Argentina,flores,67,1885.8148
+190,Octubre,2025,México,café,85,1501.5612
+191,Diciembre,2024,México,cacao,19,2414.2508
+192,Febrero,2023,Argentina,frutas,75,1930.0366
+193,Diciembre,2025,México,flores,6,120.6101
+194,Diciembre,2024,México,frutas,147,1893.4293
+195,Diciembre,2023,Argentina,frutas,96,2168.99
+196,Diciembre,2025,México,cosméticos,28,4483.4827
+197,Diciembre,2025,Canadá,banano,26,918.9882
+198,Noviembre,2023,Argentina,banano,135,2831.2486
+199,Diciembre,2024,México,flores,103,4625.9729
+200,Abril,2025,Canadá,frutas,13,4587.2891
